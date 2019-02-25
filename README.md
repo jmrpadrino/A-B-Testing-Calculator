@@ -225,7 +225,7 @@ jQuery(document).ready( function(){
     if ( null == message ){
         message = calcLanguaje['default'];
     }   
-    /* HACER LAS TRADUCCIONES DEL TEMPLATE */
+
     jQuery('#calcTitle').text(message.calcTitle);
     jQuery('#q1').text(message.q1);
     jQuery('#q2').text(message.q2);
