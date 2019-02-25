@@ -42,54 +42,63 @@ It is dependent on the [jQuery 3.3.1 Slim version](https://code.jquery.com/jquer
                 <div class="row center-lg">
                     <div class="col-lg-12">
                         <div class="border">
-                            <div class="row  row-gutterless phn-ta-c">
+                            <div class="row">
                                 <div class="col-lg-8 col-sm-8 col-md-8">
-                                    <p id="q1" class=""></p>
+                                    <p id="q1"></p>
                                 </div>
                                 <div class="col-lg-4 col-sm-4 col-md-4">
-                                    <input type="text" class="ta-r phn-ta-l mr-5" id="conversions" value="30"> <span>%</span>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="conversions" value="30">
+                                        <div class="input-group-addon">%</div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row row-gutterless phn-ta-c">
+                            <div class="row">
                                 <div class="col-lg-8 col-sm-8 col-md-8">
-                                    <p id="q2" class=""></p>
+                                    <p id="q2" ></p>
                                 </div>
                                 <div class="col-lg-4 col-sm-4 col-md-4">
-                                    <input type="text" class="ta-r phn-ta-l mr-5" id="resolution" value="20"> <span>%</span>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="resolution" value="20">
+                                        <div class="input-group-addon">%</div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row row-gutterless phn-ta-c">
+                            <div class="row">
                                 <div class="col-lg-8 col-sm-8 col-md-8">
-                                    <p id="q3" class="text-dark  ph-30  pv-10 phn-ph-0"></p>
+                                    <p id="q3"></p>
                                 </div>
                                 <div class="col-lg-4 col-sm-4 col-md-4">
-                                    <input type="text" class="ta-r phn-ta-l mr-5" id="versions" value="6">
+                                    <input type="text" class="form-control" id="versions" value="6">
                                 </div>
                             </div>
-                            <div class="row row-gutterless phn-ta-c">
+                            <div class="row">
                                 <div class="col-lg-8 col-sm-8 col-md-8">
-                                    <p id="q4" class="text-dark  ph-30  pv-10 phn-ph-0"></p>
+                                    <p id="q4"></p>
                                 </div>
                                 <div class="col-lg-4 col-sm-4 col-md-4">
-                                    <input type="text" class="ta-r phn-ta-l mr-5" id="visitor" value="200">
+                                    <input type="text" class="form-control" id="visitor" value="200">
                                 </div>
                             </div>
-                            <div class="row  row-gutterless phn-ta-c">
+                            <div class="row">
                                 <div class="col-lg-8 col-sm-8 col-md-8">
-                                    <p id="q5" class="text-dark  ph-30  pv-10 phn-ph-0"></p>
+                                    <p id="q5"></p>
                                 </div>
                                 <div class="col-lg-4 col-sm-4 col-md-4">
-                                    <input type="text" class="ta-r phn-ta-l mr-5" id="percent" value="100"> <span>%</span>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="percent" value="100">
+                                        <div class="input-group-addon">%</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row center-lg">
-                    <div class="col-lg-12 ta-c">
-                        <p class="fs-xlarge text-dsark duration-calc-result"><span id="resultMessage"></span> <span id="result" class="color-blue"></span></p>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p><span id="resultMessage"></span> <span id="result" class="color-blue"></span></p>
                         <p id="error_message_placeholder"></p>
-                        <button id="calcBtn" class="btn btn-big color-white bg-blue border-blue  phn-ph-30" onclick="durationCalculator()"></button>
+                        <button id="calcBtn" class="btn btn-primary" onclick="durationCalculator()"></button>
                     </div>
                 </div>
             </div>
