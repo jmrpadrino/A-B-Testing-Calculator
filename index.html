@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en_US">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../../../favicon.ico">
+        <title>Starter Template · Bootstrap</title>
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Place your stylesheet here-->
+        <link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+        <section class="section">
+            <div class="container wrap">
+                <div class="row center-lg">
+                    <div class="col-lg-10">
+                        <h3 id="calcTitle" class="section-l2-title mb-50 text-dark ta-c"></h3>
+                        <div class="row center-lg">
+                            <div class="col-lg-12">
+                                <div class="border">
+                                    <div class="row  row-gutterless phn-ta-c">
+                                        <div class="col-lg-8 col-sm-8 col-md-8">
+                                            <p id="q1" class=""></p>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-4 col-md-4">
+                                            <input type="text" class="ta-r phn-ta-l mr-5" id="conversions" value="30"> <span>%</span>
+                                        </div>
+                                    </div>
+                                    <div class="row row-gutterless phn-ta-c">
+                                        <div class="col-lg-8 col-sm-8 col-md-8">
+                                            <p id="q2" class=""></p>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-4 col-md-4">
+                                            <input type="text" class="ta-r phn-ta-l mr-5" id="resolution" value="20"> <span>%</span>
+                                        </div>
+                                    </div>
+                                    <div class="row row-gutterless phn-ta-c">
+                                        <div class="col-lg-8 col-sm-8 col-md-8">
+                                            <p id="q3" class="text-dark  ph-30  pv-10 phn-ph-0"></p>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-4 col-md-4">
+                                            <input type="text" class="ta-r phn-ta-l mr-5" id="versions" value="6">
+                                        </div>
+                                    </div>
+                                    <div class="row row-gutterless phn-ta-c">
+                                        <div class="col-lg-8 col-sm-8 col-md-8">
+                                            <p id="q4" class="text-dark  ph-30  pv-10 phn-ph-0"></p>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-4 col-md-4">
+                                            <input type="text" class="ta-r phn-ta-l mr-5" id="visitor" value="200">
+                                        </div>
+                                    </div>
+                                    <div class="row  row-gutterless phn-ta-c">
+                                        <div class="col-lg-8 col-sm-8 col-md-8">
+                                            <p id="q5" class="text-dark  ph-30  pv-10 phn-ph-0"></p>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-4 col-md-4">
+                                            <input type="text" class="ta-r phn-ta-l mr-5" id="percent" value="100"> <span>%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row center-lg">
+                            <div class="col-lg-12 ta-c">
+                                <p class="fs-xlarge text-dsark duration-calc-result"><span id="resultMessage"></span> <span id="result" class="color-blue"></span></p>
+                                <p id="error_message_placeholder"></p>
+                                <button id="calcBtn" class="btn btn-big color-white bg-blue border-blue  phn-ph-30" onclick="durationCalculator()"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Bootstrap core JavaScript
+================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="ABTest-calc.js"></script>
+
+    </body>
+</html>
